@@ -1,3 +1,9 @@
+<?php if(isset($this->document) and isset($this->document->title)) : ?>
+<h1 class="ui header">
+    <?= $this->document->title; ?>
+</h1>
+<?php endif; ?>
+
 <div id="infoBox" class="ui segment">
     <h3 class="ui header">Title</h3>
     <p>Pellentesque Fermentum Pharetra Justo Fringilla</p>
